@@ -1,0 +1,6 @@
+[submodule "rosserial"]
+	path = rosserial
+	url = https://github.com/ros-drivers/rosserial.git
+[submodule "obstacle_detector"]
+	path = obstacle_detector
+	url = https://github.com/yangfuyuan/obstacle_detector.git

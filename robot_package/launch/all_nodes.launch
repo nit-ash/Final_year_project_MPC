@@ -1,0 +1,8 @@
+<launch>
+    <node pkg='robot_package' type="position_publisher.py" name="position_publisher" output="screen"></node>
+    <node pkg='robot_package' type="obstacle_position_publisher.py" name="obstacle_position_publisher" output="screen"></node>
+    <node pkg='robot_package' type="mpc_node.py" name="mpc_node" output="screen"></node>
+    <node pkg='robot_package' type="Data_to_arduino.py" name="Data_to_arduino" output="screen"></node>
+    <include file="/home/nitesh/catkin_ws/src/obstacle_detector/launch/two_scanners.launch"></include>
+    <include file="/home/nitesh/catkin_ws/src/ydlidar_ros/launch/lidar.launch"></include>
+</launch>

@@ -4,3 +4,6 @@
 [submodule "obstacle_detector"]
 	path = obstacle_detector
 	url = https://github.com/yangfuyuan/obstacle_detector.git
+[submodule "ydlidar_ros_driver"]
+	path = ydlidar_ros_driver
+	url = https://github.com/YDLIDAR/ydlidar_ros_driver.git

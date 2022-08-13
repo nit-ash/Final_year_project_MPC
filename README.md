@@ -1,6 +1,7 @@
 # Final_year_project_MPC
 
-### REQUIREMENTS - CasADi, Numpy, serial, matplotlib, transformations
+### REQUIREMENTS - ROS, CasADi, Numpy, serial, matplotlib, transformations
+Follow ROS installation instructions for Ubuntu in Ros wiki.
 ```
 pip3 install casadi
 pip3 install numpy
